@@ -12,7 +12,7 @@ const HomePage = ({
     {/* Section Hero */}
     <Hero />
     {/* Client Logobar */}
-    <div className="py-12 bg-white border-b border-gray-100">
+    {/* <div className="py-12 bg-white border-b border-gray-100">
       <div className="max-w-7xl mx-auto px-4">
         <p className="text-center text-gray-400 text-sm font-semibold uppercase tracking-widest mb-8">
           Telah Dipercaya Oleh
@@ -25,7 +25,7 @@ const HomePage = ({
           <div className="text-2xl font-bold text-gray-400">QAREER HARAPAN ASIA</div>
         </div>
       </div>
-    </div>
+    </div> */}
     {/* Section Products */}
     <Products />
     {/* Section Features */}

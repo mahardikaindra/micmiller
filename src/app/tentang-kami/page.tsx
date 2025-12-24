@@ -10,13 +10,13 @@ const TentangKamiPage = () => (
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div>
             <span className="text-blue-600 font-bold tracking-widest uppercase text-sm">
-              Tentang RKM Konveksi
+              Tentang MicMiller Konveksi
             </span>
             <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 leading-tight text-black">
               Membangun Kredibilitas Melalui Kualitas Pakaian
             </h2>
             <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-              Berdiri sejak tahun 2025 di Kota Bandung, RKM Konveksi
+              Berdiri sejak tahun 2017 di Kota Bandung, MicMiller Konveksi
               telah bertransformasi dari bengkel jahit kecil menjadi pusat
               produksi garment modern. Kami percaya bahwa setiap pakaian yang
               kami buat adalah representasi dari identitas klien kami.

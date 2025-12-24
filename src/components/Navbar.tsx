@@ -67,7 +67,7 @@ const Navbar: React.FC<NavbarProps> = ({ currentPage, setCurrentPage }) => {
             <span
               className={`text-2xl font-bold ${scrolled || currentPage !== "home" ? "text-blue-900" : "text-white"}`}
             >
-              RKM<span className="text-blue-500">KONVEKSI</span>
+              MICMILLER<span className="text-blue-500">KONVEKSI</span>
             </span>
           </div>
 
@@ -89,7 +89,7 @@ const Navbar: React.FC<NavbarProps> = ({ currentPage, setCurrentPage }) => {
                 </button>
               ))}
               <a
-                href="https://wa.me/6282240072717?text=Halo%20RKM%20Konveksi%2C%20saya%20ingin%20konsultasi%20mengenai%20pemesanan%20pakaian."
+                href="https://wa.me/6285771024619?text=Halo%20MICMILLER%20Konveksi%2C%20saya%20ingin%20konsultasi%20mengenai%20pemesanan%20pakaian."
                 className="bg-blue-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-blue-700 transition-all shadow-lg"
               >
                 Pesan Sekarang

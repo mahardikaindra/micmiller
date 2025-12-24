@@ -17,11 +17,11 @@ const Footer = ({
   setCurrentPage: (page: string) => void;
 }) => {
   const handlePesanWA = (paket: string) => {
-    const nomorWA = "6282240072717";
+    const nomorWA = "6285771024619";
     let pesan = "";
 
     if (paket === "Tanya-tanya" || paket === "Umum") {
-      pesan = "Halo Admin, saya mau tanya produk RKM Konveksi?";
+      pesan = "Halo Admin, saya mau tanya produk MicMiller Konveksi?";
     } else {
       pesan = `Halo Admin, saya tertarik dengan paket ${paket} dan ingin memesan. Bisa bantu saya?`;
     }
@@ -35,10 +35,10 @@ const Footer = ({
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           <div>
             <span className="text-2xl font-bold text-white mb-6 block">
-              RKM<span className="text-blue-500">KONVEKSI</span>
+              MicMiller<span className="text-blue-500">KONVEKSI</span>
             </span>
             <p className="text-gray-400 mb-6 leading-relaxed">
-              Solusi produksi pakaian berkualitas sejak 2025. Kami hadir untuk
+              Solusi produksi pakaian berkualitas sejak 2017. Kami hadir untuk
               membantu brand dan perusahaan Anda tampil lebih profesional.
             </p>
             <div className="flex space-x-4">
@@ -86,17 +86,16 @@ const Footer = ({
               <li className="flex items-start gap-3">
                 <MapPin size={20} className="text-blue-500 shrink-0" />
                 <span>
-                  Perumahan The Green Hill Taman Sibolang, Blok H6, Kab. Bandung
-                  Barat, Indonesia
+                  Alamat Konveksi, Cigadung, Kota Bandung, Jawa Barat
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={20} className="text-blue-500 shrink-0" />
-                <span>+62 822-4007-2717</span>
+                <span>+62 857-7102-4619</span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={20} className="text-blue-500 shrink-0" />
-                <span>rakamahardika22@gmail.com</span>
+                <span>hallo.micmiller@gmail.com</span>
               </li>
             </ul>
           </div>
@@ -122,7 +121,7 @@ const Footer = ({
 
         <div className="border-t border-gray-800 pt-8 text-center text-gray-500 text-sm">
           <p>
-            &copy; {new Date().getFullYear()} RKM Konveksi. Seluruh Hak Cipta
+            &copy; {new Date().getFullYear()} MicMiller Konveksi. Seluruh Hak Cipta
             Dilindungi.
           </p>
         </div>

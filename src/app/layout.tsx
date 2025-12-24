@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "RKM Konveksi Bandung - Produsen Seragam & Apparel Custom Terpercaya",
-  description: "RKM Konveksi Bandung adalah mitra terpercaya Anda untuk produksi seragam dan apparel custom berkualitas tinggi dengan pengerjaan tepat waktu.",
+  title: "MicMiller Konveksi Bandung - Produsen Seragam & Apparel Custom Terpercaya",
+  description: "MicMiller Konveksi Bandung adalah mitra terpercaya Anda untuk produksi seragam dan apparel custom berkualitas tinggi dengan pengerjaan tepat waktu.",
 };
 
 export default function RootLayout({

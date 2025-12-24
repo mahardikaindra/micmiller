@@ -43,7 +43,7 @@ const CaraPemesananPage = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4 text-black">Cara Pemesanan</h2>
           <p className="text-gray-600">
-            Proses pemesanan mudah dan transparan di RKM Konveksi.
+            Proses pemesanan mudah dan transparan di MicMiller Konveksi.
           </p>
         </div>
 
@@ -78,7 +78,7 @@ const CaraPemesananPage = () => {
             tepat.
           </p>
           <a
-            href="https://wa.me/6282240072717?text=Halo%20Admin%2C%20saya%20mau%20konsultasi%20desain%20untuk%20pemesanan%20pakaian."
+            href="https://wa.me/6285771024619?text=Halo%20Admin%2C%20saya%20mau%20konsultasi%20desain%20untuk%20pemesanan%20pakaian."
             className="bg-white text-blue-600 px-8 py-4 rounded-xl font-bold inline-flex items-center gap-2 hover:bg-gray-100 transition-all"
           >
             <MessageCircle size={20} /> Chat Admin Sekarang

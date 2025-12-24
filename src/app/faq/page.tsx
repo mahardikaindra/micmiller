@@ -6,7 +6,7 @@ const FaqPage = () => {
   const [activeIdx, setActiveIdx] = useState(0);
   const faqs = [
     {
-      q: "Berapa minimal order di RKM Konveksi?",
+      q: "Berapa minimal order di MicMiller Konveksi?",
       a: "Minimal pemesanan kami adalah 24 pcs per desain. Untuk pesanan dalam jumlah besar (di atas 100 pcs), kami memberikan harga khusus yang lebih kompetitif.",
     },
     {
@@ -28,11 +28,11 @@ const FaqPage = () => {
   ];
 
     const handlePesanWA = (paket: string) => {
-    const nomorWA = "6282240072717";
+    const nomorWA = "6285771024619";
     let pesan = "";
 
     if (paket === "Tanya-tanya" || paket === "Umum") {
-      pesan = "Halo Admin, saya mau tanya produk RKM Konveksi?";
+      pesan = "Halo Admin, saya mau tanya produk MicMiller Konveksi?";
     } else {
       pesan = `Halo Admin, saya tertarik dengan paket ${paket} dan ingin memesan. Bisa bantu saya?`;
     }
