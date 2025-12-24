@@ -1,11 +1,11 @@
 "use client";
 import { useState } from "react";
-import Navbar from "@components/Navbar";
+import Navbar from "../components/Navbar";
 import KatalogPage from "./katalog/page";
 import CaraPemesananPage from "./cara-pemesanan/page";
 import TentangKamiPage from "./tentang-kami/page";
 import FaqPage from "./faq/page";
-import Footer from "@components/Footer";
+import Footer from "../components/Footer";
 import HomePage from "./home/page";
 
 import { useRouter } from "next/navigation";
